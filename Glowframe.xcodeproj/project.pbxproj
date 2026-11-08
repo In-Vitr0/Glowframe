@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00000000000000000000000F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000002 /* SafariWebExtensionHandler.swift */; };
+		00000000000000000000001A /* Glowframe Extension.appex in Embed Extensions */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* Glowframe Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00000000000000000000001F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* main.swift */; };
+		00000000000000000000B000 /* Resources/content.js in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A000 /* Resources/content.js */; };
+		00000000000000000000B001 /* Resources/manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A001 /* Resources/manifest.json */; };
+		00000000000000000000B002 /* Resources/popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A002 /* Resources/popup.css */; };
+		00000000000000000000B003 /* Resources/popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A003 /* Resources/popup.html */; };
+		00000000000000000000B004 /* Resources/popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A004 /* Resources/popup.js */; };
+		00000000000000000000C002 /* Resources/settings.js in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000C001 /* Resources/settings.js */; };
+		00000000000000000000D002 = {isa = PBXBuildFile; fileRef = 00000000000000000000D001; };
+		00000000000000000000D102 = {isa = PBXBuildFile; fileRef = 00000000000000000000D101; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67EAE0C8307673670072448A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000018;
+			remoteInfo = "Glowframe Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00000000000000000000001B /* Embed Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00000000000000000000001A /* Glowframe Extension.appex in Embed Extensions */,
+			);
+			name = "Embed Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		000000000000000000000002 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		000000000000000000000008 /* Glowframe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Glowframe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000009 /* Glowframe Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = "Glowframe Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000A000 /* Resources/content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Resources/content.js; sourceTree = "<group>"; };
+		00000000000000000000A001 /* Resources/manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		00000000000000000000A002 /* Resources/popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		00000000000000000000A003 /* Resources/popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		00000000000000000000A004 /* Resources/popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Resources/popup.js; sourceTree = "<group>"; };
+		00000000000000000000C001 /* Resources/settings.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Resources/settings.js; sourceTree = "<group>"; };
+		00000000000000000000D001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Resources/quality.js; sourceTree = "<group>"; };
+		00000000000000000000D101 = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Resources/hdr.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00000000000000000000000A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000008 /* Glowframe.app */,
+				000000000000000000000009 /* Glowframe Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00000000000000000000000B = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000001 /* main.swift */,
+				000000000000000000000002 /* SafariWebExtensionHandler.swift */,
+				00000000000000000000000A /* Products */,
+				00000000000000000000A000 /* Resources/content.js */,
+				00000000000000000000A001 /* Resources/manifest.json */,
+				00000000000000000000A002 /* Resources/popup.css */,
+				00000000000000000000A003 /* Resources/popup.html */,
+				00000000000000000000A004 /* Resources/popup.js */,
+				00000000000000000000C001 /* Resources/settings.js */,
+				00000000000000000000D001,
+				00000000000000000000D101,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000018 /* Glowframe Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000000E /* Build configuration list for PBXNativeTarget "Glowframe Extension" */;
+			buildPhases = (
+				000000000000000000000010 /* Sources */,
+				000000000000000000000011 /* Frameworks */,
+				000000000000000000000017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glowframe Extension";
+			productName = "Glowframe Extension";
+			productReference = 000000000000000000000009 /* Glowframe Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		000000000000000000000023 /* Glowframe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000001E /* Build configuration list for PBXNativeTarget "Glowframe" */;
+			buildPhases = (
+				000000000000000000000020 /* Sources */,
+				000000000000000000000021 /* Frameworks */,
+				000000000000000000000022 /* Resources */,
+				00000000000000000000001B /* Embed Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000019 /* PBXTargetDependency */,
+			);
+			name = "Glowframe";
+			productName = "Glowframe";
+			productReference = 000000000000000000000008 /* Glowframe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 000000000000000000000026 /* Build configuration list for PBXProject "Glowframe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00000000000000000000000B;
+			productRefGroup = 00000000000000000000000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000023 /* Glowframe */,
+				000000000000000000000018 /* Glowframe Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000B000 /* Resources/content.js in Resources */,
+				00000000000000000000B001 /* Resources/manifest.json in Resources */,
+				00000000000000000000B002 /* Resources/popup.css in Resources */,
+				00000000000000000000B003 /* Resources/popup.html in Resources */,
+				00000000000000000000B004 /* Resources/popup.js in Resources */,
+				00000000000000000000C002 /* Resources/settings.js in Resources */,
+				00000000000000000000D002,
+				00000000000000000000D102,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000000F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000001F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000018 /* Glowframe Extension */;
+			targetProxy = 67EAE0C8307673670072448A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = { DEVELOPMENT_TEAM = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = "Extension-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.in-vitr0.glowframe.extension;
+				PRODUCT_MODULE_NAME = SafariExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = { DEVELOPMENT_TEAM = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = "Extension-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.in-vitr0.glowframe.extension;
+				PRODUCT_MODULE_NAME = SafariExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00000000000000000000001C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = "App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.in-vitr0.glowframe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = "App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.in-vitr0.glowframe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000000000000000000000024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = { DEVELOPMENT_TEAM = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000000000000000000000025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = { DEVELOPMENT_TEAM = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000000E /* Build configuration list for PBXNativeTarget "Glowframe Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000C /* Debug */,
+				00000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		00000000000000000000001E /* Build configuration list for PBXNativeTarget "Glowframe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000001C /* Debug */,
+				00000000000000000000001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		000000000000000000000026 /* Build configuration list for PBXProject "Glowframe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000024 /* Debug */,
+				000000000000000000000025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000027 /* Project object */;
+}
